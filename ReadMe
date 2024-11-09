@@ -6,9 +6,9 @@ https://maps.googleapis.com/maps/api/geocode/json?address=14210%20Cyber%20Place%
 devloepr docs o fthe above api: https://developers.google.com/maps/documentation/geocoding/requests-geocoding
 
 usage: %20 is an escape character and has to be used when entering address for example 14210, cyber  place florida (no commas asd spases can be passed)
-you pass address=14210%20Cyber%20Place%20Tampa%20Florida
+you pass address=14210%20Cyber%20Place%20Tampa%20Florida (need to write code for this )
 
-need to write code for this 
+
 
 
 https://solar.googleapis.com/v1/buildingInsights:findClosest?location.latitude=28.0759865&location.longitude=-82.419917&key=AIzaSyA7iCy4fBpE_OeSfgYRU44fGRPZBUL98GY
@@ -18,6 +18,11 @@ code 1:
 
 https://maps.googleapis.com/maps/api/geocode/json?address=14210%20Cyber%20Place%20Tampa%20Florida&key=AIzaSyA7iCy4fBpE_OeSfgYRU44fGRPZBUL98GY
 output requird: results.geometry.location.lat adn results.geometry.location.lat
+
+
+code 2: 
+pass thaht latitiute and longitude to this.
+https://solar.googleapis.com/v1/buildingInsights:findClosest?location.latitude=28.0759865&location.longitude=-82.419917&key=AIzaSyA7iCy4fBpE_OeSfgYRU44fGRPZBUL98GY
 
 
 
